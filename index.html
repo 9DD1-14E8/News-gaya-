@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamster Kombat Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="header">
+            <div class="level">LVL <span id="level">6</span></div>
+            <div class="stats">
+                <span>🎮 0</span>
+                <span>💰 <span id="balance">1.86K</span></span>
+                <span>🏆 0</span>
+            </div>
+        </div>
+
+        <div class="tasks">
+            <div class="task">
+                🔑 Daily cipher <span id="cipher-timer">12:33</span>
+            </div>
+            <div class="task">
+                ⭐ Daily combo <span id="combo-timer">12:41</span>
+            </div>
+            <div class="task">
+                ✅ Earn
+            </div>
+        </div>
+
+        <div class="project">
+            <img src="alchemy.jpg" alt="Project" class="project-img">
+            <div class="project-info">
+                <h3>MY ALCHEMY</h3>
+                <p>⚡ <span id="xp">22M 43S</span></p>
+                <p>🔥 <span id="min-xp">21.61K (Min 46K)</span></p>
+                <button id="change-project">Change Project</button>
+            </div>
+        </div>
+
+        <div class="progress-bars">
+            <div class="bar">
+                <span>🎲 XP</span>
+                <div class="progress"><div class="progress-fill" id="xp-bar"></div></div>
+            </div>
+            <div class="bar">
+                <span>🎨 Creativity</span>
+                <div class="progress"><div class="progress-fill" id="creativity-bar"></div></div>
+            </div>
+            <div class="bar">
+                <span>🎯 Focus</span>
+                <div class="progress"><div class="progress-fill" id="focus-bar"></div></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
